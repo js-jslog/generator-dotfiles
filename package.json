@@ -1,0 +1,14 @@
+{
+  "name": "generator-dotfiles",
+  "version": "0.1.0",
+  "description": "A Yeoman Generator to deploy basic project relevant dotfiles",
+  "files": [
+    "generators"
+  ],
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "dependencies": {
+    "yeoman-generator": "^4.7.2"
+  }
+}
