@@ -12,8 +12,6 @@ const MyBase = class extends Generator {
 
 module.exports = class extends MyBase {
   writing() {
-    this.copyTemplateFiles();
-    this.config.save();
     const pkgJson = {
       name: 'basic-jslog-project',
       version: '0.1.0',
@@ -31,6 +29,9 @@ module.exports = class extends MyBase {
     };
 
     this.fs.extendJSON(this.destinationPath('package.json'), pkgJson);
+        
+    this.copyTemplateFiles();
+    this.config.save();
   }
 
   install() {
