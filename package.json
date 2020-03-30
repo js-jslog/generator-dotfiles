@@ -1,7 +1,7 @@
 {
   "name": "generator-dotfiles",
   "version": "1.0.0",
-  "description": "A Yeoman Generator to deploy basic project relevant dotfiles",
+  "description": "A Yeoman Generator to generate the base requirements of all jslog npm projects",
   "files": [
     "generators"
   ],
